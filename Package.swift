@@ -13,7 +13,7 @@ let package = Package(
             targets: ["HGCircularSlider"]),
     ],
     targets: [
-        .target(name: "HGCircularSlider")
+        .target(name: "HGCircularSlider", path: "HGCircularSlider")
     ],
     swiftLanguageVersions: [.v5]
 )
