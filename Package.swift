@@ -2,13 +2,13 @@
 
 import PackageDescription
 
-let package = Package(
+let packages = Package(
     name: "HGCircularSlider",
     platforms: [.iOS(.v13)],
     products: [
         .library(name: "HGCircularSlider", targets: ["HGCircularSlider"]),
     ],
     targets: [
-        .target(name: "HGCircularSlider", dependencies: [], path: "HGCircularSlider/Classes"),
+        .target(name: "HGCircularSlider", path: "HGCircularSlider/Classes"),
     ]
 )
