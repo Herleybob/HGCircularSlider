@@ -4,14 +4,11 @@ import PackageDescription
 
 let package = Package(
     name: "HGCircularSlider",
-    platforms: [.iOS(.v8)],
+    platforms: [.iOS(.v13)],
     products: [
-        .library(
-            name: "HGCircularSlider",
-            targets: ["HGCircularSlider"]
-        ),
+        .library(name: "HGCircularSlider", targets: ["HGCircularSlider"]),
     ],
     targets: [
-        .target(name: "HGCircularSlider", dependencies: [], path: "HGCircularSlider/Classes")
+        .target(name: "HGCircularSlider", dependencies: [], path: "HGCircularSlider/Classes"),
     ]
 )
