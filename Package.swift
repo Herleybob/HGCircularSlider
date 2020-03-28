@@ -9,9 +9,9 @@ let package = Package(
         .library(
             name: "HGCircularSlider",
             targets: ["HGCircularSlider"]
-        )
+        ),
     ],
     targets: [
-        .target(name: "HGCircularSlider", path: "HGCircularSlider/Classes")
+        .target(name: "HGCircularSlider", dependencies: [], path: "HGCircularSlider/Classes")
     ]
 )
